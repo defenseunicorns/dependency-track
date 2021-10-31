@@ -1,0 +1,9 @@
+justifications:
+- component: php-frontend
+  version: 3.17.0.7439
+  justification: "Even though the artifact was added we don't use it in runtime"
+  cve: CVE-2011-1939
+- component: php-frontend
+  version: 3.17.0.7439
+  justification: "Mitigated through network policies in the deployment"
+  cve: CVE-2014-9912
