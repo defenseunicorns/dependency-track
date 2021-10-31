@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" version="1" serialNumber="urn:uuid:9793b0f6-adbd-4071-a9a8-2f217de16373">
+  <metadata>
+    <timestamp>2021-10-27T05:57:27-04:00</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>0.25.0</version>
+      </tool>
+    </tools>
+    <component type="container">
+      <name>extension:1.7.1</name>
+      <version>sha256:b3cf6b672f6b80ff08ffc8123fada368818918bceff6d1577050e71cf0c16c4f</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library">
+      <name>PyGObject</name>
+      <version>3.28.3</version>
+      <licenses>
+        <license>
+          <name>GNU LGPL</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/PyGObject@3.28.3</purl>
+    </component>
+    <component type="library">
+      <name>PySocks</name>
+      <version>1.6.8</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/PySocks@1.6.8</purl>
+    </component>
+    <component type="library">
+      <name>acl</name>
+      <version>2.2.53-1.el8</version>
+      <purl>pkg:rpm/redhat/acl@2.2.53-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>audit-libs</name>
+      <version>3.0-0.17.20191104git1c2f876.el8</version>
+      <purl>pkg:rpm/redhat/audit-libs@3.0-0.17.20191104git1c2f876.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>basesystem</name>
+      <version>11-5.el8</version>
+      <purl>pkg:rpm/redhat/basesystem@11-5.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>bash</name>
+      <version>4.4.20-1.el8_4</version>
+      <purl>pkg:rpm/redhat/bash@4.4.20-1.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>brotli</name>
+      <version>1.0.6-3.el8</version>
+      <purl>pkg:rpm/redhat/brotli@1.0.6-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>bzip2-libs</name>
+      <version>1.0.6-26.el8</version>
+      <purl>pkg:rpm/redhat/bzip2-libs@1.0.6-26.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>ca-certificates</name>
+      <version>2021.2.50-80.0.el8_4</version>
+      <purl>pkg:rpm/redhat/ca-certificates@2021.2.50-80.0.el8_4?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>chardet</name>
+      <version>3.0.4</version>
+      <licenses>
+        <license>
+          <name>LGPL</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/chardet@3.0.4</purl>
+    </component>
+    <component type="library">
+      <name>chkconfig</name>
+      <version>1.13-2.el8</version>
+      <purl>pkg:rpm/redhat/chkconfig@1.13-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>cloud.google.com/go</name>
+      <version>v0.81.0</version>
+      <purl>pkg:golang/cloud.google.com/go@v0.81.0</purl>
+    </component>
+    <component type="library">
+      <name>coreutils-single</name>
+      <version>8.30-8.el8</version>
+      <purl>pkg:rpm/redhat/coreutils-single@8.30-8.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>cracklib</name>
+      <version>2.9.6-15.el8</version>
+      <purl>pkg:rpm/redhat/cracklib@2.9.6-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>cracklib-dicts</name>
+      <version>2.9.6-15.el8</version>
+      <purl>pkg:rpm/redhat/cracklib-dicts@2.9.6-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>crypto-policies</name>
+      <version>20210209-1.gitbfb6bed.el8_3</version>
+      <purl>pkg:rpm/redhat/crypto-policies@20210209-1.gitbfb6bed.el8_3?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>crypto-policies-scripts</name>
+      <version>20210209-1.gitbfb6bed.el8_3</version>
+      <purl>pkg:rpm/redhat/crypto-policies-scripts@20210209-1.gitbfb6bed.el8_3?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>cryptsetup-libs</name>
+      <version>2.3.3-4.el8</version>
+      <purl>pkg:rpm/redhat/cryptsetup-libs@2.3.3-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>curl</name>
+      <version>7.61.1-18.el8_4.1</version>
+      <purl>pkg:rpm/redhat/curl@7.61.1-18.el8_4.1?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>cyrus-sasl-lib</name>
+      <version>2.1.27-5.el8</version>
+      <purl>pkg:rpm/redhat/cyrus-sasl-lib@2.1.27-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>dbus</name>
+      <version>1:1.12.8-12.el8_4.2</version>
+      <purl>pkg:rpm/redhat/dbus@1.12.8-12.el8_4.2?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>dbus-common</name>
+      <version>1:1.12.8-12.el8_4.2</version>
+      <purl>pkg:rpm/redhat/dbus-common@1.12.8-12.el8_4.2?arch=noarch&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>dbus-daemon</name>
+      <version>1:1.12.8-12.el8_4.2</version>
+      <purl>pkg:rpm/redhat/dbus-daemon@1.12.8-12.el8_4.2?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>dbus-glib</name>
+      <version>0.110-2.el8</version>
+      <purl>pkg:rpm/redhat/dbus-glib@0.110-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>dbus-libs</name>
+      <version>1:1.12.8-12.el8_4.2</version>
+      <purl>pkg:rpm/redhat/dbus-libs@1.12.8-12.el8_4.2?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>dbus-python</name>
+      <version>1.2.4</version>
+      <licenses>
+        <license>
+          <name>Expat (MIT/X11)</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/dbus-python@1.2.4</purl>
+    </component>
+    <component type="library">
+      <name>dbus-tools</name>
+      <version>1:1.12.8-12.el8_4.2</version>
+      <purl>pkg:rpm/redhat/dbus-tools@1.12.8-12.el8_4.2?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>decorator</name>
+      <version>4.2.1</version>
+      <licenses>
+        <license>
+          <name>new BSD License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/decorator@4.2.1</purl>
+    </component>
+    <component type="library">
+      <name>device-mapper</name>
+      <version>8:1.02.175-5.el8</version>
+      <purl>pkg:rpm/redhat/device-mapper@1.02.175-5.el8?arch=x86_64&amp;epoch=8</purl>
+    </component>
+    <component type="library">
+      <name>device-mapper-libs</name>
+      <version>8:1.02.175-5.el8</version>
+      <purl>pkg:rpm/redhat/device-mapper-libs@1.02.175-5.el8?arch=x86_64&amp;epoch=8</purl>
+    </component>
+    <component type="library">
+      <name>diffutils</name>
+      <version>3.6-6.el8</version>
+      <purl>pkg:rpm/redhat/diffutils@3.6-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>dmidecode</name>
+      <version>1:3.2-8.el8</version>
+      <purl>pkg:rpm/redhat/dmidecode@3.2-8.el8?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>dnf</name>
+      <version>4.4.2-11.el8</version>
+      <purl>pkg:rpm/redhat/dnf@4.4.2-11.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>dnf-data</name>
+      <version>4.4.2-11.el8</version>
+      <purl>pkg:rpm/redhat/dnf-data@4.4.2-11.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>dnf-plugin-subscription-manager</name>
+      <version>1.28.13-4.el8_4</version>
+      <purl>pkg:rpm/redhat/dnf-plugin-subscription-manager@1.28.13-4.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>elfutils-default-yama-scope</name>
+      <version>0.182-3.el8</version>
+      <purl>pkg:rpm/redhat/elfutils-default-yama-scope@0.182-3.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>elfutils-libelf</name>
+      <version>0.182-3.el8</version>
+      <purl>pkg:rpm/redhat/elfutils-libelf@0.182-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>elfutils-libs</name>
+      <version>0.182-3.el8</version>
+      <purl>pkg:rpm/redhat/elfutils-libs@0.182-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>ethtool</name>
+      <version>0.14</version>
+      <licenses>
+        <license>
+          <name>GPL-2.0</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/ethtool@0.14</purl>
+    </component>
+    <component type="library">
+      <name>expat</name>
+      <version>2.2.5-4.el8</version>
+      <purl>pkg:rpm/redhat/expat@2.2.5-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>file-libs</name>
+      <version>5.33-16.el8_3.1</version>
+      <purl>pkg:rpm/redhat/file-libs@5.33-16.el8_3.1?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>filesystem</name>
+      <version>3.8-3.el8</version>
+      <purl>pkg:rpm/redhat/filesystem@3.8-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>findutils</name>
+      <version>1:4.6.0-20.el8</version>
+      <purl>pkg:rpm/redhat/findutils@4.6.0-20.el8?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>gawk</name>
+      <version>4.2.1-2.el8</version>
+      <purl>pkg:rpm/redhat/gawk@4.2.1-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>gdb-gdbserver</name>
+      <version>8.2-15.el8</version>
+      <purl>pkg:rpm/redhat/gdb-gdbserver@8.2-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>gdbm</name>
+      <version>1:1.18-1.el8</version>
+      <purl>pkg:rpm/redhat/gdbm@1.18-1.el8?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>gdbm-libs</name>
+      <version>1:1.18-1.el8</version>
+      <purl>pkg:rpm/redhat/gdbm-libs@1.18-1.el8?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/armon/go-radix</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/armon/go-radix@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/blang/semver/v4</name>
+      <version>v4.0.0</version>
+      <purl>pkg:golang/github.com/blang/semver/v4@v4.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/elastic/go-sysinfo</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/elastic/go-sysinfo@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/elastic/go-ucfg</name>
+      <version>v0.8.3</version>
+      <purl>pkg:golang/github.com/elastic/go-ucfg@v0.8.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.11.0+incompatible</version>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.11.0+incompatible</purl>
+    </component>
+    <component type="library">
+      <name>github.com/fsnotify/fsnotify</name>
+      <version>v1.4.9</version>
+      <purl>pkg:golang/github.com/fsnotify/fsnotify@v1.4.9</purl>
+    </component>
+    <component type="library">
+      <name>github.com/ghodss/yaml</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/ghodss/yaml@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/go-logr/zapr</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/github.com/go-logr/zapr@v0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gobuffalo/flect</name>
+      <version>v0.2.3</version>
+      <purl>pkg:golang/github.com/gobuffalo/flect@v0.2.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+    </component>
+    <component type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.6</version>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.6</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/google/uuid@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/errwrap</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/hashicorp/errwrap@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/go-multierror</name>
+      <version>v1.1.1</version>
+      <purl>pkg:golang/github.com/hashicorp/go-multierror@v1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+    </component>
+    <component type="library">
+      <name>github.com/hashicorp/hcl</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/hashicorp/hcl@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.12</version>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.12</purl>
+    </component>
+    <component type="library">
+      <name>github.com/joeshaw/multierror</name>
+      <version>v0.0.0-20140124173710-69b34d4ec901</version>
+      <purl>pkg:golang/github.com/joeshaw/multierror@v0.0.0-20140124173710-69b34d4ec901</purl>
+    </component>
+    <component type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.11</version>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.11</purl>
+    </component>
+    <component type="library">
+      <name>github.com/magiconair/properties</name>
+      <version>v1.8.5</version>
+      <purl>pkg:golang/github.com/magiconair/properties@v1.8.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+    </component>
+    <component type="library">
+      <name>github.com/mitchellh/mapstructure</name>
+      <version>v1.4.1</version>
+      <purl>pkg:golang/github.com/mitchellh/mapstructure@v1.4.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/moby/spdystream</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/moby/spdystream@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+    </component>
+    <component type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pelletier/go-toml</name>
+      <version>v1.9.3</version>
+      <purl>pkg:golang/github.com/pelletier/go-toml@v1.9.3</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/pmezard/go-difflib</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/github.com/pmezard/go-difflib@v1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.26.0</version>
+      <purl>pkg:golang/github.com/prometheus/common@v0.26.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/sethvargo/go-password</name>
+      <version>v0.2.0</version>
+      <purl>pkg:golang/github.com/sethvargo/go-password@v0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/afero</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/github.com/spf13/afero@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/cast</name>
+      <version>v1.3.1</version>
+      <purl>pkg:golang/github.com/spf13/cast@v1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.2.1</version>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.2.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/jwalterweatherman</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/github.com/spf13/jwalterweatherman@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>github.com/spf13/viper</name>
+      <version>v1.8.1</version>
+      <purl>pkg:golang/github.com/spf13/viper@v1.8.1</purl>
+    </component>
+    <component type="library">
+      <name>github.com/stretchr/testify</name>
+      <version>v1.7.0</version>
+      <purl>pkg:golang/github.com/stretchr/testify@v1.7.0</purl>
+    </component>
+    <component type="library">
+      <name>github.com/subosito/gotenv</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/github.com/subosito/gotenv@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>glib2</name>
+      <version>2.56.4-10.el8_4.1</version>
+      <purl>pkg:rpm/redhat/glib2@2.56.4-10.el8_4.1?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>glibc</name>
+      <version>2.28-151.el8</version>
+      <purl>pkg:rpm/redhat/glibc@2.28-151.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>glibc-common</name>
+      <version>2.28-151.el8</version>
+      <purl>pkg:rpm/redhat/glibc-common@2.28-151.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>glibc-minimal-langpack</name>
+      <version>2.28-151.el8</version>
+      <purl>pkg:rpm/redhat/glibc-minimal-langpack@2.28-151.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>gmp</name>
+      <version>1:6.1.2-10.el8</version>
+      <purl>pkg:rpm/redhat/gmp@6.1.2-10.el8?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>gnupg2</name>
+      <version>2.2.20-2.el8</version>
+      <purl>pkg:rpm/redhat/gnupg2@2.2.20-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>gnutls</name>
+      <version>3.6.14-8.el8_3</version>
+      <purl>pkg:rpm/redhat/gnutls@3.6.14-8.el8_3?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>go.elastic.co/apm</name>
+      <version>v1.12.0</version>
+      <purl>pkg:golang/go.elastic.co/apm@v1.12.0</purl>
+    </component>
+    <component type="library">
+      <name>go.elastic.co/apm/module/apmelasticsearch</name>
+      <version>v1.12.0</version>
+      <purl>pkg:golang/go.elastic.co/apm/module/apmelasticsearch@v1.12.0</purl>
+    </component>
+    <component type="library">
+      <name>go.elastic.co/apm/module/apmhttp</name>
+      <version>v1.12.0</version>
+      <purl>pkg:golang/go.elastic.co/apm/module/apmhttp@v1.12.0</purl>
+    </component>
+    <component type="library">
+      <name>go.elastic.co/fastjson</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/go.elastic.co/fastjson@v1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.7.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.7.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/automaxprocs</name>
+      <version>v1.4.0</version>
+      <purl>pkg:golang/go.uber.org/automaxprocs@v1.4.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>go.uber.org/zap</name>
+      <version>v1.18.1</version>
+      <purl>pkg:golang/go.uber.org/zap@v1.18.1</purl>
+    </component>
+    <component type="library">
+      <name>gobject-introspection</name>
+      <version>1.56.1-1.el8</version>
+      <purl>pkg:rpm/redhat/gobject-introspection@1.56.1-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210428140749-89ef3d95e781</version>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210428140749-89ef3d95e781</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210402161424-2e8d93401602</version>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210603081109-ebe580a85c40</version>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210603081109-ebe580a85c40</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+    </component>
+    <component type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210611083556-38a9dc6acbc6</version>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210611083556-38a9dc6acbc6</purl>
+    </component>
+    <component type="library">
+      <name>gomodules.xyz/jsonpatch/v2</name>
+      <version>v2.2.0</version>
+      <purl>pkg:golang/gomodules.xyz/jsonpatch/v2@v2.2.0</purl>
+    </component>
+    <component type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/ini.v1</name>
+      <version>v1.62.0</version>
+      <purl>pkg:golang/gopkg.in/ini.v1@v1.62.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+    </component>
+    <component type="library">
+      <name>gpg</name>
+      <version>1.13.1</version>
+      <licenses>
+        <license>
+          <name>LGPL2.1+ (the library), GPL2+ (tests and examples)</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/gpg@1.13.1</purl>
+    </component>
+    <component type="library">
+      <name>gpg-pubkey</name>
+      <version>d4082792-5b32db75</version>
+      <purl>pkg:rpm/redhat/gpg-pubkey@d4082792-5b32db75?arch=</purl>
+    </component>
+    <component type="library">
+      <name>gpg-pubkey</name>
+      <version>fd431d51-4ae0493b</version>
+      <purl>pkg:rpm/redhat/gpg-pubkey@fd431d51-4ae0493b?arch=</purl>
+    </component>
+    <component type="library">
+      <name>gpgme</name>
+      <version>1.13.1-7.el8</version>
+      <purl>pkg:rpm/redhat/gpgme@1.13.1-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>grep</name>
+      <version>3.1-6.el8</version>
+      <purl>pkg:rpm/redhat/grep@3.1-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>gzip</name>
+      <version>1.9-12.el8</version>
+      <purl>pkg:rpm/redhat/gzip@1.9-12.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>howett.net/plist</name>
+      <version>v0.0.0-20181124034731-591f970eefbb</version>
+      <purl>pkg:golang/howett.net/plist@v0.0.0-20181124034731-591f970eefbb</purl>
+    </component>
+    <component type="library">
+      <name>hwdata</name>
+      <version>0.314-8.8.el8</version>
+      <purl>pkg:rpm/redhat/hwdata@0.314-8.8.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>idna</name>
+      <version>2.5</version>
+      <licenses>
+        <license>
+          <name>BSD-like</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/idna@2.5</purl>
+    </component>
+    <component type="library">
+      <name>ima-evm-utils</name>
+      <version>1.3.2-12.el8</version>
+      <purl>pkg:rpm/redhat/ima-evm-utils@1.3.2-12.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>info</name>
+      <version>6.5-6.el8</version>
+      <purl>pkg:rpm/redhat/info@6.5-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>iniparse</name>
+      <version>0.4</version>
+      <licenses>
+        <license>
+          <name>MIT</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/iniparse@0.4</purl>
+    </component>
+    <component type="library">
+      <name>iptables</name>
+      <version>1.8.4-17.el8</version>
+      <purl>pkg:rpm/redhat/iptables@1.8.4-17.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>iptables-libs</name>
+      <version>1.8.4-17.el8</version>
+      <purl>pkg:rpm/redhat/iptables-libs@1.8.4-17.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>json-c</name>
+      <version>0.13.1-0.4.el8</version>
+      <purl>pkg:rpm/redhat/json-c@0.13.1-0.4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>json-glib</name>
+      <version>1.4.4-1.el8</version>
+      <purl>pkg:rpm/redhat/json-glib@1.4.4-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/api</name>
+      <version>v0.21.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.21.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.21.2</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.21.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.21.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.21.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.21.2</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.21.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.21.2</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.21.2</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210305001622-591a79e4bda7</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305001622-591a79e4bda7</purl>
+    </component>
+    <component type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210527160623-6fdb442a123b</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210527160623-6fdb442a123b</purl>
+    </component>
+    <component type="library">
+      <name>keyutils-libs</name>
+      <version>1.5.10-6.el8</version>
+      <purl>pkg:rpm/redhat/keyutils-libs@1.5.10-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>kmod-libs</name>
+      <version>25-17.el8</version>
+      <purl>pkg:rpm/redhat/kmod-libs@25-17.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>krb5-libs</name>
+      <version>1.18.2-8.3.el8_4</version>
+      <purl>pkg:rpm/redhat/krb5-libs@1.18.2-8.3.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>langpacks-en</name>
+      <version>1.0-12.el8</version>
+      <purl>pkg:rpm/redhat/langpacks-en@1.0-12.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>libacl</name>
+      <version>2.2.53-1.el8</version>
+      <purl>pkg:rpm/redhat/libacl@2.2.53-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libarchive</name>
+      <version>3.3.3-1.el8</version>
+      <purl>pkg:rpm/redhat/libarchive@3.3.3-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libassuan</name>
+      <version>2.5.1-3.el8</version>
+      <purl>pkg:rpm/redhat/libassuan@2.5.1-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libattr</name>
+      <version>2.4.48-3.el8</version>
+      <purl>pkg:rpm/redhat/libattr@2.4.48-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libblkid</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/libblkid@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libcap</name>
+      <version>2.26-4.el8</version>
+      <purl>pkg:rpm/redhat/libcap@2.26-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libcap-ng</name>
+      <version>0.7.9-5.el8</version>
+      <purl>pkg:rpm/redhat/libcap-ng@0.7.9-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libcom_err</name>
+      <version>1.45.6-1.el8</version>
+      <purl>pkg:rpm/redhat/libcom_err@1.45.6-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libcomps</name>
+      <version>0.1.11-5.el8</version>
+      <purl>pkg:rpm/redhat/libcomps@0.1.11-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libcurl</name>
+      <version>7.61.1-18.el8_4.1</version>
+      <purl>pkg:rpm/redhat/libcurl@7.61.1-18.el8_4.1?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libdb</name>
+      <version>5.3.28-42.el8_4</version>
+      <purl>pkg:rpm/redhat/libdb@5.3.28-42.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libdb-utils</name>
+      <version>5.3.28-42.el8_4</version>
+      <purl>pkg:rpm/redhat/libdb-utils@5.3.28-42.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libdnf</name>
+      <version>0.55.0-7.el8</version>
+      <purl>pkg:rpm/redhat/libdnf@0.55.0-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libfdisk</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/libfdisk@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libffi</name>
+      <version>3.1-22.el8</version>
+      <purl>pkg:rpm/redhat/libffi@3.1-22.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libgcc</name>
+      <version>8.4.1-1.el8</version>
+      <purl>pkg:rpm/redhat/libgcc@8.4.1-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libgcrypt</name>
+      <version>1.8.5-4.el8</version>
+      <purl>pkg:rpm/redhat/libgcrypt@1.8.5-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libgpg-error</name>
+      <version>1.31-1.el8</version>
+      <purl>pkg:rpm/redhat/libgpg-error@1.31-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libibverbs</name>
+      <version>32.0-4.el8</version>
+      <purl>pkg:rpm/redhat/libibverbs@32.0-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libidn2</name>
+      <version>2.2.0-1.el8</version>
+      <purl>pkg:rpm/redhat/libidn2@2.2.0-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libksba</name>
+      <version>1.3.5-7.el8</version>
+      <purl>pkg:rpm/redhat/libksba@1.3.5-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libmetalink</name>
+      <version>0.1.3-7.el8</version>
+      <purl>pkg:rpm/redhat/libmetalink@0.1.3-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libmnl</name>
+      <version>1.0.4-6.el8</version>
+      <purl>pkg:rpm/redhat/libmnl@1.0.4-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libmodulemd</name>
+      <version>2.9.4-2.el8</version>
+      <purl>pkg:rpm/redhat/libmodulemd@2.9.4-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libmount</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/libmount@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnetfilter_conntrack</name>
+      <version>1.0.6-5.el8</version>
+      <purl>pkg:rpm/redhat/libnetfilter_conntrack@1.0.6-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnfnetlink</name>
+      <version>1.0.1-13.el8</version>
+      <purl>pkg:rpm/redhat/libnfnetlink@1.0.1-13.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnftnl</name>
+      <version>1.1.5-4.el8</version>
+      <purl>pkg:rpm/redhat/libnftnl@1.1.5-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnghttp2</name>
+      <version>1.33.0-3.el8_2.1</version>
+      <purl>pkg:rpm/redhat/libnghttp2@1.33.0-3.el8_2.1?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnl3</name>
+      <version>3.5.0-1.el8</version>
+      <purl>pkg:rpm/redhat/libnl3@3.5.0-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libnsl2</name>
+      <version>1.2.0-2.20180605git4a062cf.el8</version>
+      <purl>pkg:rpm/redhat/libnsl2@1.2.0-2.20180605git4a062cf.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libpcap</name>
+      <version>14:1.9.1-5.el8</version>
+      <purl>pkg:rpm/redhat/libpcap@1.9.1-5.el8?arch=x86_64&amp;epoch=14</purl>
+    </component>
+    <component type="library">
+      <name>libpsl</name>
+      <version>0.20.2-6.el8</version>
+      <purl>pkg:rpm/redhat/libpsl@0.20.2-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libpwquality</name>
+      <version>1.4.4-3.el8</version>
+      <purl>pkg:rpm/redhat/libpwquality@1.4.4-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>librepo</name>
+      <version>1.12.0-3.el8</version>
+      <purl>pkg:rpm/redhat/librepo@1.12.0-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libreport-filesystem</name>
+      <version>2.9.5-15.el8</version>
+      <purl>pkg:rpm/redhat/libreport-filesystem@2.9.5-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>librhsm</name>
+      <version>0.0.3-4.el8</version>
+      <purl>pkg:rpm/redhat/librhsm@0.0.3-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libseccomp</name>
+      <version>2.5.1-1.el8</version>
+      <purl>pkg:rpm/redhat/libseccomp@2.5.1-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libselinux</name>
+      <version>2.9-5.el8</version>
+      <purl>pkg:rpm/redhat/libselinux@2.9-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libsemanage</name>
+      <version>2.9-6.el8</version>
+      <purl>pkg:rpm/redhat/libsemanage@2.9-6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libsepol</name>
+      <version>2.9-2.el8</version>
+      <purl>pkg:rpm/redhat/libsepol@2.9-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libsigsegv</name>
+      <version>2.11-5.el8</version>
+      <purl>pkg:rpm/redhat/libsigsegv@2.11-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libsmartcols</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/libsmartcols@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libsolv</name>
+      <version>0.7.16-2.el8</version>
+      <purl>pkg:rpm/redhat/libsolv@0.7.16-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libssh</name>
+      <version>0.9.4-2.el8</version>
+      <purl>pkg:rpm/redhat/libssh@0.9.4-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libssh-config</name>
+      <version>0.9.4-2.el8</version>
+      <purl>pkg:rpm/redhat/libssh-config@0.9.4-2.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>libstdc++</name>
+      <version>8.4.1-1.el8</version>
+      <purl>pkg:rpm/redhat/libstdc++@8.4.1-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libtasn1</name>
+      <version>4.13-3.el8</version>
+      <purl>pkg:rpm/redhat/libtasn1@4.13-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libtirpc</name>
+      <version>1.1.4-4.el8</version>
+      <purl>pkg:rpm/redhat/libtirpc@1.1.4-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libunistring</name>
+      <version>0.9.9-3.el8</version>
+      <purl>pkg:rpm/redhat/libunistring@0.9.9-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libusbx</name>
+      <version>1.0.23-4.el8</version>
+      <purl>pkg:rpm/redhat/libusbx@1.0.23-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libuser</name>
+      <version>0.62-23.el8</version>
+      <purl>pkg:rpm/redhat/libuser@0.62-23.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libutempter</name>
+      <version>1.1.6-14.el8</version>
+      <purl>pkg:rpm/redhat/libutempter@1.1.6-14.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libuuid</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/libuuid@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libverto</name>
+      <version>0.3.0-5.el8</version>
+      <purl>pkg:rpm/redhat/libverto@0.3.0-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libxcrypt</name>
+      <version>4.1.1-4.el8</version>
+      <purl>pkg:rpm/redhat/libxcrypt@4.1.1-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libxkbcommon</name>
+      <version>0.9.1-1.el8</version>
+      <purl>pkg:rpm/redhat/libxkbcommon@0.9.1-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libxml2</name>
+      <version>2.9.7-9.el8_4.2</version>
+      <purl>pkg:rpm/redhat/libxml2@2.9.7-9.el8_4.2?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libyaml</name>
+      <version>0.1.7-5.el8</version>
+      <purl>pkg:rpm/redhat/libyaml@0.1.7-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>libzstd</name>
+      <version>1.4.4-1.el8</version>
+      <purl>pkg:rpm/redhat/libzstd@1.4.4-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>lua-libs</name>
+      <version>5.3.4-11.el8</version>
+      <purl>pkg:rpm/redhat/lua-libs@5.3.4-11.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>lz4-libs</name>
+      <version>1.8.3-3.el8_4</version>
+      <purl>pkg:rpm/redhat/lz4-libs@1.8.3-3.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>mpfr</name>
+      <version>3.1.6-1.el8</version>
+      <purl>pkg:rpm/redhat/mpfr@3.1.6-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>ncurses-base</name>
+      <version>6.1-7.20180224.el8</version>
+      <purl>pkg:rpm/redhat/ncurses-base@6.1-7.20180224.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>ncurses-libs</name>
+      <version>6.1-7.20180224.el8</version>
+      <purl>pkg:rpm/redhat/ncurses-libs@6.1-7.20180224.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nettle</name>
+      <version>3.4.1-4.el8_3</version>
+      <purl>pkg:rpm/redhat/nettle@3.4.1-4.el8_3?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>npth</name>
+      <version>1.5-4.el8</version>
+      <purl>pkg:rpm/redhat/npth@1.5-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nspr</name>
+      <version>4.32.0-1.el8_4</version>
+      <purl>pkg:rpm/redhat/nspr@4.32.0-1.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nss</name>
+      <version>3.67.0-6.el8_4</version>
+      <purl>pkg:rpm/redhat/nss@3.67.0-6.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nss-softokn</name>
+      <version>3.67.0-6.el8_4</version>
+      <purl>pkg:rpm/redhat/nss-softokn@3.67.0-6.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nss-softokn-freebl</name>
+      <version>3.67.0-6.el8_4</version>
+      <purl>pkg:rpm/redhat/nss-softokn-freebl@3.67.0-6.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nss-sysinit</name>
+      <version>3.67.0-6.el8_4</version>
+      <purl>pkg:rpm/redhat/nss-sysinit@3.67.0-6.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>nss-util</name>
+      <version>3.67.0-6.el8_4</version>
+      <purl>pkg:rpm/redhat/nss-util@3.67.0-6.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>openldap</name>
+      <version>2.4.46-17.el8_4</version>
+      <purl>pkg:rpm/redhat/openldap@2.4.46-17.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>openssl-libs</name>
+      <version>1:1.1.1g-15.el8_3</version>
+      <purl>pkg:rpm/redhat/openssl-libs@1.1.1g-15.el8_3?arch=x86_64&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>p11-kit</name>
+      <version>0.23.22-1.el8</version>
+      <purl>pkg:rpm/redhat/p11-kit@0.23.22-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>p11-kit-trust</name>
+      <version>0.23.22-1.el8</version>
+      <purl>pkg:rpm/redhat/p11-kit-trust@0.23.22-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>pam</name>
+      <version>1.3.1-14.el8</version>
+      <purl>pkg:rpm/redhat/pam@1.3.1-14.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>passwd</name>
+      <version>0.80-3.el8</version>
+      <purl>pkg:rpm/redhat/passwd@0.80-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>pciutils</name>
+      <version>3.7.0-1.el8</version>
+      <purl>pkg:rpm/redhat/pciutils@3.7.0-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>pciutils-libs</name>
+      <version>3.7.0-1.el8</version>
+      <purl>pkg:rpm/redhat/pciutils-libs@3.7.0-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>pcre</name>
+      <version>8.42-4.el8</version>
+      <purl>pkg:rpm/redhat/pcre@8.42-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>pcre2</name>
+      <version>10.32-2.el8</version>
+      <purl>pkg:rpm/redhat/pcre2@10.32-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>php-frontend</name>
+      <version>3.17.0.7439</version>
+      <purl>pkg:maven/org.sonarsource.php/php-frontend@3.17.0.7439</purl>
+      <cpe>cpe:2.3:a:php:php:3.17.0.7439:*:*:*:*:*:*:*</cpe>
+    </component>
+    <component type="library">
+      <name>pip</name>
+      <version>9.0.3</version>
+      <licenses>
+        <license>
+          <name>MIT</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/pip@9.0.3</purl>
+    </component>
+    <component type="library">
+      <name>platform-python</name>
+      <version>3.6.8-38.el8_4</version>
+      <purl>pkg:rpm/redhat/platform-python@3.6.8-38.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>platform-python-pip</name>
+      <version>9.0.3-19.el8</version>
+      <purl>pkg:rpm/redhat/platform-python-pip@9.0.3-19.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>platform-python-setuptools</name>
+      <version>39.2.0-6.el8</version>
+      <purl>pkg:rpm/redhat/platform-python-setuptools@39.2.0-6.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>popt</name>
+      <version>1.18-1.el8</version>
+      <purl>pkg:rpm/redhat/popt@1.18-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>publicsuffix-list-dafsa</name>
+      <version>20180723-1.el8</version>
+      <purl>pkg:rpm/redhat/publicsuffix-list-dafsa@20180723-1.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>pyinotify</name>
+      <version>0.9.6</version>
+      <licenses>
+        <license>
+          <name>MIT License</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/pyinotify@0.9.6</purl>
+    </component>
+    <component type="library">
+      <name>python-dateutil</name>
+      <version>2.6.1</version>
+      <licenses>
+        <license>
+          <name>Simplified BSD</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/python-dateutil@2.6.1</purl>
+    </component>
+    <component type="library">
+      <name>python-dmidecode</name>
+      <version>3.12.2</version>
+      <licenses>
+        <license>
+          <name>GPL-2</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/python-dmidecode@3.12.2</purl>
+    </component>
+    <component type="library">
+      <name>python3-chardet</name>
+      <version>3.0.4-7.el8</version>
+      <purl>pkg:rpm/redhat/python3-chardet@3.0.4-7.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-dateutil</name>
+      <version>1:2.6.1-6.el8</version>
+      <purl>pkg:rpm/redhat/python3-dateutil@2.6.1-6.el8?arch=noarch&amp;epoch=1</purl>
+    </component>
+    <component type="library">
+      <name>python3-dbus</name>
+      <version>1.2.4-15.el8</version>
+      <purl>pkg:rpm/redhat/python3-dbus@1.2.4-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-decorator</name>
+      <version>4.2.1-2.el8</version>
+      <purl>pkg:rpm/redhat/python3-decorator@4.2.1-2.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-dmidecode</name>
+      <version>3.12.2-15.el8</version>
+      <purl>pkg:rpm/redhat/python3-dmidecode@3.12.2-15.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-dnf</name>
+      <version>4.4.2-11.el8</version>
+      <purl>pkg:rpm/redhat/python3-dnf@4.4.2-11.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-dnf-plugins-core</name>
+      <version>4.0.18-4.el8</version>
+      <purl>pkg:rpm/redhat/python3-dnf-plugins-core@4.0.18-4.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-ethtool</name>
+      <version>0.14-3.el8</version>
+      <purl>pkg:rpm/redhat/python3-ethtool@0.14-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-gobject-base</name>
+      <version>3.28.3-2.el8</version>
+      <purl>pkg:rpm/redhat/python3-gobject-base@3.28.3-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-gpg</name>
+      <version>1.13.1-7.el8</version>
+      <purl>pkg:rpm/redhat/python3-gpg@1.13.1-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-hawkey</name>
+      <version>0.55.0-7.el8</version>
+      <purl>pkg:rpm/redhat/python3-hawkey@0.55.0-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-idna</name>
+      <version>2.5-5.el8</version>
+      <purl>pkg:rpm/redhat/python3-idna@2.5-5.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-iniparse</name>
+      <version>0.4-31.el8</version>
+      <purl>pkg:rpm/redhat/python3-iniparse@0.4-31.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-inotify</name>
+      <version>0.9.6-13.el8</version>
+      <purl>pkg:rpm/redhat/python3-inotify@0.9.6-13.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-libcomps</name>
+      <version>0.1.11-5.el8</version>
+      <purl>pkg:rpm/redhat/python3-libcomps@0.1.11-5.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-libdnf</name>
+      <version>0.55.0-7.el8</version>
+      <purl>pkg:rpm/redhat/python3-libdnf@0.55.0-7.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-librepo</name>
+      <version>1.12.0-3.el8</version>
+      <purl>pkg:rpm/redhat/python3-librepo@1.12.0-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-libs</name>
+      <version>3.6.8-38.el8_4</version>
+      <purl>pkg:rpm/redhat/python3-libs@3.6.8-38.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-libxml2</name>
+      <version>2.9.7-9.el8_4.2</version>
+      <purl>pkg:rpm/redhat/python3-libxml2@2.9.7-9.el8_4.2?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-pip-wheel</name>
+      <version>9.0.3-19.el8</version>
+      <purl>pkg:rpm/redhat/python3-pip-wheel@9.0.3-19.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-pysocks</name>
+      <version>1.6.8-3.el8</version>
+      <purl>pkg:rpm/redhat/python3-pysocks@1.6.8-3.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-requests</name>
+      <version>2.20.0-2.1.el8_1</version>
+      <purl>pkg:rpm/redhat/python3-requests@2.20.0-2.1.el8_1?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-rpm</name>
+      <version>4.14.3-14.el8_4</version>
+      <purl>pkg:rpm/redhat/python3-rpm@4.14.3-14.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-setuptools-wheel</name>
+      <version>39.2.0-6.el8</version>
+      <purl>pkg:rpm/redhat/python3-setuptools-wheel@39.2.0-6.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-six</name>
+      <version>1.11.0-8.el8</version>
+      <purl>pkg:rpm/redhat/python3-six@1.11.0-8.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>python3-subscription-manager-rhsm</name>
+      <version>1.28.13-4.el8_4</version>
+      <purl>pkg:rpm/redhat/python3-subscription-manager-rhsm@1.28.13-4.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-syspurpose</name>
+      <version>1.28.13-4.el8_4</version>
+      <purl>pkg:rpm/redhat/python3-syspurpose@1.28.13-4.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>python3-urllib3</name>
+      <version>1.24.2-5.el8</version>
+      <purl>pkg:rpm/redhat/python3-urllib3@1.24.2-5.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>rdma-core</name>
+      <version>32.0-4.el8</version>
+      <purl>pkg:rpm/redhat/rdma-core@32.0-4.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>readline</name>
+      <version>7.0-10.el8</version>
+      <purl>pkg:rpm/redhat/readline@7.0-10.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>redhat-release</name>
+      <version>8.4-0.6.el8</version>
+      <purl>pkg:rpm/redhat/redhat-release@8.4-0.6.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>requests</name>
+      <version>2.20.0</version>
+      <licenses>
+        <license>
+          <name>Apache 2.0</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/requests@2.20.0</purl>
+    </component>
+    <component type="library">
+      <name>rootfiles</name>
+      <version>8.1-22.el8</version>
+      <purl>pkg:rpm/redhat/rootfiles@8.1-22.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>rpm</name>
+      <version>4.14.3</version>
+      <licenses>
+        <license>
+          <name>UNKNOWN</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/rpm@4.14.3</purl>
+    </component>
+    <component type="library">
+      <name>rpm</name>
+      <version>4.14.3-14.el8_4</version>
+      <purl>pkg:rpm/redhat/rpm@4.14.3-14.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>rpm-build-libs</name>
+      <version>4.14.3-14.el8_4</version>
+      <purl>pkg:rpm/redhat/rpm-build-libs@4.14.3-14.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>rpm-libs</name>
+      <version>4.14.3-14.el8_4</version>
+      <purl>pkg:rpm/redhat/rpm-libs@4.14.3-14.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>sed</name>
+      <version>4.5-2.el8</version>
+      <purl>pkg:rpm/redhat/sed@4.5-2.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>setup</name>
+      <version>2.12.2-6.el8</version>
+      <purl>pkg:rpm/redhat/setup@2.12.2-6.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>setuptools</name>
+      <version>39.2.0</version>
+      <licenses>
+        <license>
+          <name>UNKNOWN</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/setuptools@39.2.0</purl>
+    </component>
+    <component type="library">
+      <name>shadow-utils</name>
+      <version>2:4.6-12.el8</version>
+      <purl>pkg:rpm/redhat/shadow-utils@4.6-12.el8?arch=x86_64&amp;epoch=2</purl>
+    </component>
+    <component type="library">
+      <name>shared-mime-info</name>
+      <version>1.9-3.el8</version>
+      <purl>pkg:rpm/redhat/shared-mime-info@1.9-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/controller-runtime</name>
+      <version>v0.9.2</version>
+      <purl>pkg:golang/sigs.k8s.io/controller-runtime@v0.9.2</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.0</version>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.0</purl>
+    </component>
+    <component type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>six</name>
+      <version>1.11.0</version>
+      <licenses>
+        <license>
+          <name>MIT</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/six@1.11.0</purl>
+    </component>
+    <component type="library">
+      <name>sqlite-libs</name>
+      <version>3.26.0-13.el8</version>
+      <purl>pkg:rpm/redhat/sqlite-libs@3.26.0-13.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>subscription-manager</name>
+      <version>1.28.13</version>
+      <licenses>
+        <license>
+          <name>GPLv2</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/subscription-manager@1.28.13</purl>
+    </component>
+    <component type="library">
+      <name>subscription-manager</name>
+      <version>1.28.13-4.el8_4</version>
+      <purl>pkg:rpm/redhat/subscription-manager@1.28.13-4.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>subscription-manager-rhsm-certificates</name>
+      <version>1.28.13-4.el8_4</version>
+      <purl>pkg:rpm/redhat/subscription-manager-rhsm-certificates@1.28.13-4.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>syspurpose</name>
+      <version>1.28.13</version>
+      <licenses>
+        <license>
+          <name>GPLv2</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/syspurpose@1.28.13</purl>
+    </component>
+    <component type="library">
+      <name>systemd</name>
+      <version>239-45.el8_4.3</version>
+      <purl>pkg:rpm/redhat/systemd@239-45.el8_4.3?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>systemd-libs</name>
+      <version>239-45.el8_4.3</version>
+      <purl>pkg:rpm/redhat/systemd-libs@239-45.el8_4.3?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>systemd-pam</name>
+      <version>239-45.el8_4.3</version>
+      <purl>pkg:rpm/redhat/systemd-pam@239-45.el8_4.3?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>tar</name>
+      <version>2:1.30-5.el8</version>
+      <purl>pkg:rpm/redhat/tar@1.30-5.el8?arch=x86_64&amp;epoch=2</purl>
+    </component>
+    <component type="library">
+      <name>tpm2-tss</name>
+      <version>2.3.2-3.el8</version>
+      <purl>pkg:rpm/redhat/tpm2-tss@2.3.2-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>tzdata</name>
+      <version>2021c-1.el8</version>
+      <purl>pkg:rpm/redhat/tzdata@2021c-1.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>urllib3</name>
+      <version>1.24.2</version>
+      <licenses>
+        <license>
+          <name>MIT</name>
+        </license>
+      </licenses>
+      <purl>pkg:pypi/urllib3@1.24.2</purl>
+    </component>
+    <component type="library">
+      <name>usermode</name>
+      <version>1.113-1.el8</version>
+      <purl>pkg:rpm/redhat/usermode@1.113-1.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>util-linux</name>
+      <version>2.32.1-27.el8</version>
+      <purl>pkg:rpm/redhat/util-linux@2.32.1-27.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>vim-minimal</name>
+      <version>2:8.0.1763-15.el8</version>
+      <purl>pkg:rpm/redhat/vim-minimal@8.0.1763-15.el8?arch=x86_64&amp;epoch=2</purl>
+    </component>
+    <component type="library">
+      <name>virt-what</name>
+      <version>1.18-9.el8_4</version>
+      <purl>pkg:rpm/redhat/virt-what@1.18-9.el8_4?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>which</name>
+      <version>2.21-12.el8</version>
+      <purl>pkg:rpm/redhat/which@2.21-12.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>xkeyboard-config</name>
+      <version>2.28-1.el8</version>
+      <purl>pkg:rpm/redhat/xkeyboard-config@2.28-1.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>xz-libs</name>
+      <version>5.2.4-3.el8</version>
+      <purl>pkg:rpm/redhat/xz-libs@5.2.4-3.el8?arch=x86_64</purl>
+    </component>
+    <component type="library">
+      <name>yum</name>
+      <version>4.4.2-11.el8</version>
+      <purl>pkg:rpm/redhat/yum@4.4.2-11.el8?arch=noarch</purl>
+    </component>
+    <component type="library">
+      <name>zlib</name>
+      <version>1.2.11-17.el8</version>
+      <purl>pkg:rpm/redhat/zlib@1.2.11-17.el8?arch=x86_64</purl>
+    </component>
+  </components>
+</bom>

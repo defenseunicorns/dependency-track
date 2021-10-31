@@ -1,0 +1,124 @@
+# exporter
+# 
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: dependency-tracker
+  namespace: dependency-tracker
+spec:
+  interval: 1m0s
+  ref:
+    branch: master
+  url: https://github.com/evryfs/helm-charts
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dependency-tracker
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: dependency-tracker
+  namespace: dependency-tracker
+spec:
+  chart:
+    spec:
+      chart: ./charts/dependency-track
+      sourceRef:
+        kind: GitRepository
+        name: dependency-tracker
+  install: {}
+  interval: 1m0s
+  timeout: 1m0s
+  values:
+    # apiserver:
+    #   resources:
+    #     requests:
+    #       cpu: 200m
+    #       memory: 1Gi
+    #     limits:
+    #       cpu: 200m
+    apiserver:
+      env:
+      - name: ALPINE_OIDC_ENABLED
+        value: "true"
+      - name: ALPINE_OIDC_ISSUER
+        value: https://login.dso.mil/auth/realms/baby-yoda
+      - name: ALPINE_OIDC_CLIENT_ID
+        value: randos_8b415d38-fb55-493c-9b37-5e49cf91d7cb_dependency-track-bigbang
+    frontend:
+      env:
+      - name: API_BASE_URL
+        value: "https://dep-api.bigbang.dev"
+      - name: ALPINE_OIDC_ENABLED
+        value: "true"
+      - name: OIDC_ISSUER
+        value: https://login.dso.mil/auth/realms/baby-yoda
+      - name: OIDC_CLIENT_ID
+        value: randos_8b415d38-fb55-493c-9b37-5e49cf91d7cb_dependency-track-bigbang
+    # randos_8b415d38-fb55-493c-9b37-5e49cf91d7cb_dependency-track-bigbang
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: dependency-tracker
+  namespace: dependency-tracker
+spec:
+  gateways:
+  - istio-system/public
+  hosts:
+  - dependencies.bigbang.dev
+  http:
+  - route:
+    - destination:
+        host: dependency-tracker-frontend
+        port:
+          number: 80
+---
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: dependency-tracker-api
+  namespace: dependency-tracker
+spec:
+  gateways:
+  - istio-system/public
+  hosts:
+  - dep-api.bigbang.dev
+  http:
+  - route:
+    - destination:
+        host: dependency-tracker-apiserver
+        port:
+          number: 80
+---
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: credentials-copy
+  namespace: dependency-tracker
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  url: https://github.com/runyontr/credentials-copy
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: credentials
+  namespace: dependency-tracker
+spec:
+  chart:
+    spec:
+      chart: chart
+      sourceRef:
+        kind: GitRepository
+        name: credentials-copy
+  interval: 1m0s
+  values:
+    source:
+      namespace: istio-system
